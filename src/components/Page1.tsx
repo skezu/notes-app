@@ -1,16 +1,19 @@
 import React from 'react';
 
-const Page1 = () => {
+/* PageTemplate is the main component for the page. It contains the header and the content. It needs a title and children components. */
+const PageTemplate = ({ title, children }: { title: string, children?: React.ReactNode }) => {
   return (
     <div className="page">
       <div className="header">
-        {/* Dark green section */}
+        {/* Header, will later also contains actions */}
+        <h1 style={{ fontFamily: 'SF Pro Display Bold', fontSize: '24px', marginLeft: '20px'}}>{title}</h1>
       </div>
       <div className="content">
-        {/* Light green section */}
+        {/* Content of the page */}
+        {children}
       </div>
     </div>
   );
 };
 
-export default Page1; 
+export default PageTemplate; 
