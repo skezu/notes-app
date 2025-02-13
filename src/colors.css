@@ -1,0 +1,520 @@
+.Colors__Red{
+    background: #ff3b30;
+  }
+  .Colors__Orange{
+    background: #ff9500;
+  }
+  .Colors__Yellow{
+    background: #ffcc00;
+  }
+  .Colors__Green{
+    background: #34c759;
+  }
+  .Colors__Mint{
+    background: #00c7be;
+  }
+  .Colors__Teal{
+    background: #30b0c7;
+  }
+  .Colors__Cyan{
+    background: #32ade6;
+  }
+  .Colors__Blue{
+    background: #007aff;
+  }
+  .Colors__Indigo{
+    background: #5856d6;
+  }
+  .Colors__Purple{
+    background: #af52de;
+  }
+  .Colors__Pink{
+    background: #ff2d55;
+  }
+  .Colors__Brown{
+    background: #a2845e;
+  }
+  .Backgrounds__Primary{
+    background: #ffffff;
+  }
+  .Backgrounds__Secondary{
+    background: #f2f2f7;
+  }
+  .Backgrounds__Tertiary{
+    background: #ffffff;
+  }
+  .Backgrounds__PrimaryDarkElevated{
+    background: #1c1c1e;
+  }
+  .Backgrounds__SecondaryDarkElevated{
+    background: #2c2c2e;
+  }
+  .Backgrounds__TertiaryDarkElevated{
+    background: #3a3a3c;
+  }
+  .Backgrounds__PrimaryDarkBase{
+    background: #000000;
+  }
+  .Backgrounds__SecondaryDarkBase{
+    background: #1c1c1e;
+  }
+  .Backgrounds__TertiaryDarkBase{
+    background: #2c2c2e;
+  }
+  .BackgroundsGrouped__Primary{
+    background: #f2f2f7;
+  }
+  .BackgroundsGrouped__Secondary{
+    background: #ffffff;
+  }
+  .BackgroundsGrouped__Tertiary{
+    background: #f2f2f7;
+  }
+  .Fills__Primary{
+    background: rgba(120, 120, 128, 0.2);
+  }
+  .Fills__Secondary{
+    background: rgba(120, 120, 128, 0.16);
+  }
+  .Fills__Tertiary{
+    background: rgba(120, 120, 128, 0.12);
+  }
+  .Fills__Quaternary{
+    background: rgba(120, 120, 128, 0.08);
+  }
+  .Grays__Gray{
+    background: #8e8e93;
+  }
+  .Grays__Gray2{
+    background: #aeaeb2;
+  }
+  .Grays__Gray3{
+    background: #c7c7cc;
+  }
+  .Grays__Gray4{
+    background: #d1d1d6;
+  }
+  .Grays__Gray5{
+    background: #e5e5ea;
+  }
+  .Grays__Gray6{
+    background: #f2f2f7;
+  }
+  .Grays__Black{
+    background: #000000;
+  }
+  .Grays__White{
+    background: #ffffff;
+  }
+  .Labels__Primary{
+    background: #000000;
+  }
+  .Labels__Secondary{
+    background: rgba(60, 60, 67, 0.6);
+  }
+  .Labels__Tertiary{
+    background: rgba(60, 60, 67, 0.3);
+  }
+  .Labels__Quaternary{
+    background: rgba(60, 60, 67, 0.18);
+  }
+  .Separators__Opaque{
+    background: #c6c6c8;
+  }
+  .Separators__Nonopaque{
+    background: rgba(84, 84, 86, 0.34);
+  }
+  .VibrantFills__VibrantSecondaryDark{
+    background: rgba(194, 194, 194, 0.5);
+  }
+  .VibrantFills__VibrantTertiaryDark{
+    background: rgba(194, 194, 194, 0.5);
+  }
+  .VibrantFills__VibrantPrimary{
+    background: #3d3d3d;
+  }
+  .VibrantFills__VibrantSecondary{
+    background: rgba(61, 61, 61, 0.5);
+  }
+  .VibrantFills__VibrantTertiary{
+    background: rgba(61, 61, 61, 0.5);
+  }
+  .VibrantFills__VibrantPrimaryDark{
+    background: #c2c2c2;
+  }
+  .VibrantLabels__VibrantSecondary{
+    background: #3d3d3d;
+  }
+  .VibrantLabels__VibrantTertiary{
+    background: rgba(61, 61, 61, 0.5);
+  }
+  .VibrantLabels__VibrantQuaternary{
+    background: rgba(61, 61, 61, 0.5);
+  }
+  .VibrantLabels__VibrantPrimaryDark{
+    background: #ffffff;
+  }
+  .VibrantLabels__VibrantSecondaryDark{
+    background: #c2c2c2;
+  }
+  .VibrantLabels__VibrantTertiaryDark{
+    background: rgba(194, 194, 194, 0.5);
+  }
+  .VibrantLabels__VibrantQuaternaryDark{
+    background: rgba(194, 194, 194, 0.5);
+  }
+  .VibrantLabels__VibrantPrimary{
+    background: #000000;
+  }
+  .LargeTitle__Regular{
+    font-size: 34px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.4000000059604645px;
+    line-height: 41px;
+  }
+  .LargeTitle__Emphasized{
+    font-size: 34px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.4000000059604645px;
+    line-height: 41px;
+  }
+  .Title1__Regular{
+    font-size: 28px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3799999952316284px;
+    line-height: 34px;
+  }
+  .Title1__Emphasized{
+    font-size: 28px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3799999952316284px;
+    line-height: 34px;
+  }
+  .Title1__Title2__Regular{
+    font-size: 22px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.25999999046325684px;
+    line-height: 28px;
+  }
+  .Title1__Title2__Emphasized{
+    font-size: 22px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.25999999046325684px;
+    line-height: 28px;
+  }
+  .Title3__Regular{
+    font-size: 20px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.44999998807907104px;
+    line-height: 25px;
+  }
+  .Title3__Emphasized{
+    font-size: 20px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.44999998807907104px;
+    line-height: 25px;
+  }
+  .Headline__Regular{
+    font-size: 17px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.4300000071525574px;
+    line-height: 22px;
+  }
+  .Headline__Italic{
+    font-size: 17px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.4300000071525574px;
+    line-height: 22px;
+  }
+  .Body__Regular{
+    font-size: 17px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.4300000071525574px;
+    line-height: 22px;
+  }
+  .Body__Emphasized{
+    font-size: 17px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.4300000071525574px;
+    line-height: 22px;
+  }
+  .Body__Italic{
+    font-size: 17px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.4300000071525574px;
+    line-height: 22px;
+  }
+  .Body__EmphasizedItalic{
+    font-size: 17px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.4300000071525574px;
+    line-height: 22px;
+  }
+  .Callout__Regular{
+    font-size: 16px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.3100000023841858px;
+    line-height: 21px;
+  }
+  .Callout__Emphasized{
+    font-size: 16px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.3100000023841858px;
+    line-height: 21px;
+  }
+  .Callout__Italic{
+    font-size: 16px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.3100000023841858px;
+    line-height: 21px;
+  }
+  .Callout__EmphasizedItalic{
+    font-size: 16px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.3100000023841858px;
+    line-height: 21px;
+  }
+  .Subheadline__Regular{
+    font-size: 15px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.23000000417232513px;
+    line-height: 20px;
+  }
+  .Subheadline__Emphasized{
+    font-size: 15px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.23000000417232513px;
+    line-height: 20px;
+  }
+  .Subheadline__Italic{
+    font-size: 15px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.23000000417232513px;
+    line-height: 20px;
+  }
+  .Subheadline__EmphaizedItalic{
+    font-size: 15px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.23000000417232513px;
+    line-height: 20px;
+  }
+  .Footnote__Regular{
+    font-size: 13px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.07999999821186066px;
+    line-height: 18px;
+  }
+  .Footnote__Emphasized{
+    font-size: 13px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.07999999821186066px;
+    line-height: 18px;
+  }
+  .Footnote__Italic{
+    font-size: 13px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.07999999821186066px;
+    line-height: 18px;
+  }
+  .Footnote__EmphasizedItalic{
+    font-size: 13px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.07999999821186066px;
+    line-height: 18px;
+  }
+  .Caption1__Regular{
+    font-size: 12px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .Caption1__Emphasized{
+    font-size: 12px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  .Caption1__Italic{
+    font-size: 12px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 16px;
+  }
+  .Caption1__EmphasizedItalic{
+    font-size: 12px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 16px;
+  }
+  .Caption2__Regular{
+    font-size: 11px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05999999865889549px;
+    line-height: 13px;
+  }
+  .Caption2__Emphasized{
+    font-size: 11px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05999999865889549px;
+    line-height: 13px;
+  }
+  .Caption2__Italic{
+    font-size: 11px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.05999999865889549px;
+    line-height: 13px;
+  }
+  .Caption2__EmphasizedItalic{
+    font-size: 11px;
+    font-family: SF Pro, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05999999865889549px;
+    line-height: 13px;
+  }
+
+  :root{
+    --Labels__Secondary:rgba(60, 60, 67, 0.6);
+    --Colors__Blue:#007aff;
+    --Labels__Primary:#000000;
+    --Backgrounds__Primary:#ffffff;
+    --Fills__Primary:rgba(120, 120, 128, 0.2);
+    --Separators__Opaque:#c6c6c8;
+    --Labels__Tertiary:rgba(60, 60, 67, 0.3);
+    --Labels__Quaternary:rgba(60, 60, 67, 0.18);
+    --Backgrounds__Tertiary:#ffffff;
+    --Backgrounds__Secondary:#f2f2f7;
+    --BackgroundsGrouped__Primary:#f2f2f7;
+    --BackgroundsGrouped__Secondary:#ffffff;
+    --BackgroundsGrouped__Tertiary:#f2f2f7;
+    --Colors__Red:#ff3b30;
+    --Colors__Orange:#ff9500;
+    --Colors__Yellow:#ffcc00;
+    --Colors__Green:#34c759;
+    --Colors__Mint:#00c7be;
+    --Colors__Teal:#30b0c7;
+    --Colors__Cyan:#32ade6;
+    --Colors__Brown:#a2845e;
+    --Colors__Indigo:#5856d6;
+    --Colors__Purple:#af52de;
+    --Colors__Pink:#ff2d55;
+    --Grays__Black:#000000;
+    --Grays__White:#ffffff;
+    --Grays__Gray:#8e8e93;
+    --Grays__Gray2:#aeaeb2;
+    --Grays__Gray3:#c7c7cc;
+    --Grays__Gray4:#d1d1d6;
+    --Grays__Gray5:#e5e5ea;
+    --Grays__Gray6:#f2f2f7;
+    --Fills__Secondary:rgba(120, 120, 128, 0.16);
+    --Fills__Quaternary:rgba(120, 120, 128, 0.08);
+    --Fills__Tertiary:rgba(120, 120, 128, 0.12);
+    --Separators__Nonopaque:rgba(84, 84, 86, 0.34);
+    --Mode:Light;
+    --Overlays__Default:rgba(0, 0, 0, 0.2);
+    --Miscellaneous__Barborder:rgba(0, 0, 0, 0.3);
+    --Miscellaneous__ButtonDisabeldBG:rgba(255, 255, 255, 0.12);
+    --Miscellaneous__ButtonBezeledfill:rgba(0, 122, 255, 0.15);
+    --Miscellaneous__TabUnselected:#999999;
+    --Miscellaneous__TextFieldBG:#ffffff;
+    --Miscellaneous__TextFieldOutline:rgba(60, 60, 67, 0.29);
+    --Miscellaneous__AlertMenuActionSheetSeparators:rgba(128, 128, 128, 0.55);
+    --Miscellaneous__MenuLargeSeparator:rgba(0, 0, 0, 0.08);
+    --Miscellaneous__KeyboardAccessoryBarSelection:#ebedf0;
+    --Miscellaneous__KeyboardEmojiMic:rgba(27, 31, 38, 0.72);
+    --Overlays__ActivityViewController:rgba(0, 0, 0, 0.12);
+    --Miscellaneous__KitSectionFill:#f5f5f5;
+    --Miscellaneous__KitSectionStroke:rgba(0, 0, 0, 0.3);
+  }
+  
+:root{
+  --Labels__Secondary:rgba(60, 60, 67, 0.6);
+  --Colors__Blue:#007aff;
+  --Labels__Primary:#000000;
+  --Backgrounds__Primary:#ffffff;
+  --Fills__Primary:rgba(120, 120, 128, 0.2);
+  --Separators__Opaque:#c6c6c8;
+  --Labels__Tertiary:rgba(60, 60, 67, 0.3);
+  --Labels__Quaternary:rgba(60, 60, 67, 0.18);
+  --Backgrounds__Tertiary:#ffffff;
+  --Backgrounds__Secondary:#f2f2f7;
+  --BackgroundsGrouped__Primary:#f2f2f7;
+  --BackgroundsGrouped__Secondary:#ffffff;
+  --BackgroundsGrouped__Tertiary:#f2f2f7;
+  --Colors__Red:#ff3b30;
+  --Colors__Orange:#ff9500;
+  --Colors__Yellow:#ffcc00;
+  --Colors__Green:#34c759;
+  --Colors__Mint:#00c7be;
+  --Colors__Teal:#30b0c7;
+  --Colors__Cyan:#32ade6;
+  --Colors__Brown:#a2845e;
+  --Colors__Indigo:#5856d6;
+  --Colors__Purple:#af52de;
+  --Colors__Pink:#ff2d55;
+  --Grays__Black:#000000;
+  --Grays__White:#ffffff;
+  --Grays__Gray:#8e8e93;
+  --Grays__Gray2:#aeaeb2;
+  --Grays__Gray3:#c7c7cc;
+  --Grays__Gray4:#d1d1d6;
+  --Grays__Gray5:#e5e5ea;
+  --Grays__Gray6:#f2f2f7;
+  --Fills__Secondary:rgba(120, 120, 128, 0.16);
+  --Fills__Quaternary:rgba(120, 120, 128, 0.08);
+  --Fills__Tertiary:rgba(120, 120, 128, 0.12);
+  --Separators__Nonopaque:rgba(84, 84, 86, 0.34);
+  --Mode:Light;
+  --Overlays__Default:rgba(0, 0, 0, 0.2);
+  --Miscellaneous__Barborder:rgba(0, 0, 0, 0.3);
+  --Miscellaneous__ButtonDisabeldBG:rgba(255, 255, 255, 0.12);
+  --Miscellaneous__ButtonBezeledfill:rgba(0, 122, 255, 0.15);
+  --Miscellaneous__TabUnselected:#999999;
+  --Miscellaneous__TextFieldBG:#ffffff;
+  --Miscellaneous__TextFieldOutline:rgba(60, 60, 67, 0.29);
+  --Miscellaneous__AlertMenuActionSheetSeparators:rgba(128, 128, 128, 0.55);
+  --Miscellaneous__MenuLargeSeparator:rgba(0, 0, 0, 0.08);
+  --Miscellaneous__KeyboardAccessoryBarSelection:#ebedf0;
+  --Miscellaneous__KeyboardEmojiMic:rgba(27, 31, 38, 0.72);
+  --Overlays__ActivityViewController:rgba(0, 0, 0, 0.12);
+  --Miscellaneous__KitSectionFill:#f5f5f5;
+  --Miscellaneous__KitSectionStroke:rgba(0, 0, 0, 0.3);
+}
+
+
+  

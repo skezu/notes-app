@@ -1,0 +1,171 @@
+/* Base sidebar styles */
+.sidebar {
+  width: 200px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarlist {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* 16px between items */
+}
+
+/* Window controls */
+.toolbar {
+  height: 52px;
+  width: 200px;
+  padding: 9px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.windowcontrols {
+  height: 38px;
+  width: 92px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+/* Window control buttons */
+.window-button {
+  height: 12px;
+  width: 12px;
+  border-radius: 100px;
+  padding: 0;
+  position: absolute;
+  top: 13px;
+}
+
+.close { 
+  background-color: var(--Colors__Red); 
+  left: 20px;
+}
+
+.minimize { 
+  background-color: var(--Colors__Yellow); 
+  left: 40px;
+}
+
+.zoom { 
+  background-color: var(--Colors__Green); 
+  left: 60px;
+}
+
+/* Sidebar sections */
+.sidebar-group {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* max-width: 180px; */
+}
+
+.section-header {
+  height: 13px;
+  padding: 0px 12px 0px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section-title {
+  color: var(--Labels__Tertiary);
+  font-size: 11px;
+  font-family: SF Pro Display Bold;
+}
+
+.section-symbol {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 11px;
+  width: 13px;
+  text-align: center;
+}
+
+/* Sidebar items */
+.sidebar-item {
+  height: 28px;
+  border-radius: 5px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-item.selected-unfocused {
+  background-color: rgba(246, 246, 246, 0.84);
+}
+
+.sidebar-item.selected-unfocused .label {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.sidebar-item.selected-focused {
+  background-color: #0a82ff;
+}
+
+.sidebar-item.selected-focused .label,
+.sidebar-item.selected-focused .number,
+.sidebar-item.selected-focused .symbol {
+  color: var(--Grays__White);
+}
+
+.indent-0 { padding-left: 8px; }
+.indent-1 { padding-left: 21px; }
+.indent-2 { padding-left: 34px; }
+.indent-3 { padding-left: 47px; }
+
+.leading {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.symbol {
+  color: var(--Colors__Blue);
+  font-size: 13px;
+  font-family: SF Pro;
+  width: 20px;
+  text-align: center;
+}
+
+.label {
+  color: var(--Labels__Primary);
+  font-size: 14px;
+  font-family: SF Pro Text Medium;
+  line-height: 16px;
+}
+
+.trailing {
+  display: flex;
+  align-items: center;
+}
+
+.counter {
+  background-color: rgba(0, 0, 0, 0.03);
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 11px;
+  font-family: SF Pro;
+  text-align: center;
+} 

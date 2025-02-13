@@ -1,0 +1,25 @@
+@import "./colors.css";
+@import "./styles.css";
+@import "./components/sidebar.css";
+@font-face {
+  font-family: 'SF Pro';
+  src: url('../assets/fonts/SF-Pro.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../assets/fonts/SF-Pro-Text-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Display Bold';
+  src: url('../assets/fonts/SF-Pro-Display-Bold.otf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Text Medium';
+  src: url('../assets/fonts/SF-Pro-Text-Medium.otf') format('truetype');
+}
+body {
+  font-family: 'SF Pro', sans-serif;
+  margin: 0;
+  /* max-width: 38rem;
+  padding: 2rem; */
+}
